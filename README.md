@@ -10,7 +10,7 @@ Console.WriteLine("根据指定文件生成随机IP");
 for (int i = 0; i < 10; i++)
 {
     NewIp = GenRandIpInFile("ipList.csv");
-    Console.WriteLine(NewIp);
+        Console.WriteLine(NewIp);
 }
 
 // 指定起始范围生成随机IP
